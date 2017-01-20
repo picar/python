@@ -4,7 +4,7 @@ from sys import argv
 
 def fib(max):
     n, np1 = 0, 1
-    while np1 < max:
+    while np1 <= max:
         n, np1 = np1, n+np1
         yield n
     return 
