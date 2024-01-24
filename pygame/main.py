@@ -6,9 +6,7 @@ pygame.init()
 screen = pygame.display.set_mode((1200, 800))
 display = pygame.Surface((1200,800))
 
-px = None
-py = None
-
+px, py = None, None
 running = True
 
 while running:
