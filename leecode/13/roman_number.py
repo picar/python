@@ -18,7 +18,7 @@ class RomanNumber:
     def __init__(self, n: str):
         self.n = n
     
-    def __int__(self):
+    def __int__(self) -> int:
         v, i = 0, 0
         while i < len(self.n):
             if self.n[i:i+2] in RomanNumber.values:
